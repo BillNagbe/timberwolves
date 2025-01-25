@@ -1,7 +1,6 @@
 import React from "react";
 
 const headerStyle = {
-    width: "100vw",
     fontSize: "1rem",
     minHeight: "fix-content",
     display: "flex",
@@ -11,10 +10,6 @@ const headerStyle = {
     alignItems: "center",
     gap: "0.5rem",
     border: "1px solid #78BE20",
-    position: "fixed",
-    top: "0",
-    left: "0",
-    right: "0"
 }
 
 
