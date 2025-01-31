@@ -1,19 +1,11 @@
-import  Header   from './components/Header/Header';
-import Nav from './components/Nav/Nav';
+import HeaderFormat from "./components/Header/Header-Format";
 
-
-
-function App() {
- return (
-  <>
-  <Header 
-  teamName="Timberwolves" 
-  state="Minnestoa" 
-  abrv="MN" 
-    />
-    <Nav />
-  </>
- );
+function App() {  
+  return (
+  
+      <HeaderFormat />
+  )
+ 
 }
 
 export default App;
