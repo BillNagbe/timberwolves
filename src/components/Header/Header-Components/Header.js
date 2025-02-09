@@ -1,16 +1,8 @@
-import { useState } from "react";
-
-
-function Header(props) {
-    const [style] = useState({
-        alignSelf: "center",
-        justifySelf: "center"
-    })
+export default function Header() {
     return (
-        <div style={style}>
-        <h1>{props.headerTitle}</h1>
+        <div className="header-content">
+            <h1>Timberwolves</h1>
+            <h3>Wolves Back!</h3>
         </div>
-    )
+    );
 }
-
-export default Header;
